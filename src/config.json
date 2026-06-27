@@ -1,0 +1,31 @@
+{
+    "blackLedger": {
+        "logs": {
+            "file_extension": "log",
+            "file_name": "SpaceEngineersDedicated_"
+        },
+        "entries": {
+            "regex_patterns": {
+                "date": "true",
+                "time": "true",
+                "player_id": "true"
+            },
+            "scan_previous_lines": "true",
+            "lookback": 5
+        },
+        "ledger_output": {
+            "file_type": "tsv",
+            "file_name": "blackLedger"
+        },
+        "processed_logs": {
+            "output_to_directory": "true",
+            "output_directory": "./processed",
+            "append_log_file": "true",
+            "append_tag": "processed"
+        },
+        "prefabs": [
+            "Prefab_SubType_Here",
+            "Eco_Prefab_One"
+        ]
+    }
+}
