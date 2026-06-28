@@ -3,4 +3,12 @@
 [![Logo](img/BlackLedger_ASCII.png "Logo")](# "Logo")
 
 # Black Ledger
-### Space Engineers Economy Transation Ledger
+
+Black Ledger is a simple parsing and logging script which will scan/parse Space Engineers logs, mainly Dedicated Server logs, to identify specific entries matching purchases from Economy Trade Stations for Space Engineers 1.209+. 
+
+The first iteration of this script isn't present as I was testing with Aegir and his Discord team along with the custom economy mod, Volsung Industries: Hostile Takeover - Economy Integration. Black Ledger can target specific prefab names, log the date, time prefab name, value and player ID and output this in either a CSV or TSV file.
+
+
+### How to use Black Ledger.
+
+***Soon™***
